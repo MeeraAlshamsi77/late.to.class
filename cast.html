@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cast - Late to Class</title>
+        <style>
+            body {
+                background-color:rgb(0, 0, 0);
+                color:rgb(255, 255, 255);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                .section {
+                color:rgb(255, 255, 255);
+            }
+             h1 {
+                font-size: 40px;
+                margin-top: 20px;
+            }
+
+            h2 {
+                font-size: 20px;
+                font-weight: normal;
+                color: gray;
+            }
+
+            p {
+                max-width: 600px;
+                margin: 0 auto 20px auto;
+                line-height: 1.5;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-weight: bold;
+            }
+
+            a:hover {
+                color: lightgray;
+            }
+
+            img {
+                margin: 20px 0;
+                border-radius: 8px;
+            }
+
+            button {
+                background-color: white;
+                color: black;
+                border: none;
+                padding: 10px 15px;
+                font-size: 14px;
+                margin-top: 10px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            button:hover {
+                background-color: rgb(131, 131, 131);
+            }
+            .navbar {
+                display: flex; 
+                justify-content: center; 
+                background-color: rgb(30, 30, 30); 
+                padding: 15px 0; 
+                box-shadow: 0 2px 5px rgba(0,0,0,0.5); 
+            }
+            .nav-link {
+                color: white;
+                text-decoration: none;
+                margin: 0 20px; 
+                font-weight: bold;
+                font-size: 16px;
+                padding: 8px 12px;
+                border-radius: 5px;
+                transition: background-color 0.3s
+            }
+            .nav-link:hover {
+                background-color: rgb(80, 80, 80);
+                color: white;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Meet the Cast</h1>
+        <header class="site-header">
+        <nav class="navbar">
+            <a href="website.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="cast.html" class="nav-link">Cast</a>
+            <a href="premiere.html" class="nav-link">Premiere</a>
+        </nav>
+    </header>
+
+          <p>
+            The film Late to Class stars three talented actors who bring the 
+            story to life with their energy and creativity. Each cast member adds 
+            their own unique spark to the film, making it fun, exciting, and unforgettable. 
+        </p>
+
+        <ul>
+            <li> Meera plays the determined but clumsy student who always tries 
+            to stay organized but ends up in the funniest situations.</li>
+
+            <li> Mouza takes on the role of the bright friend 
+            who always has clever and sometimes silly solutions to every problem.</li>
+
+            <li> Mahra plays the calm and thoughtful student who tries to keep 
+            everyone on track, but often gets dragged into the chaos.</li>
+        </ul>
+
+        <p>
+            Together, they form the perfect trio of friends whose journey will keep 
+            the audience entertained from beginning to end. 
+        </p>
+
+        <h3>Behind the Scenes</h3>
+        <img src="assets/one.jpg" id="behind" width="300">
+        <br>
+        <button onclick="changeImage()">Next Image</button>
+        
+        <footer class="site-footer">
+        <p>MMM Productions • Late to Class • 30MFF Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+</html>
