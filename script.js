@@ -1,6 +1,6 @@
 console.log("Arrow image slider loaded!");
 
-const images = ["assets/one.jpg", "assets/two.jpg", "assets/three.jpg", "assets/four.jpg", "assets/five.jpg"];
+const images = ["one.jpg", "two.jpg", "three.jpg", "four.jpg", "five.jpg"];
 let i = 0;
 
 function showImage() {
